@@ -2,7 +2,7 @@
 @import url("https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/css/icons.css");
 :root {
   --app-font: "Google Sans";
-  --app-bg: var("https://nebula.is-cute.wtf/rvxkfkdj.png");
+  "https://nebula.is-cute.wtf/rvxkfkdj.png": var("https://nebula.is-cute.wtf/rvxkfkdj.png");
   --accent-hue: 224;
   --accent-saturation: 71%;
   --accent-lightness: 61%;
@@ -220,7 +220,7 @@ body,
 
 .bg-1QIAus,
 .container-2RRFHK {
-  background: var(--app-bg);
+  background: var("https://nebula.is-cute.wtf/rvxkfkdj.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
